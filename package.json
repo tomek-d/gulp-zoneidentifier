@@ -3,17 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "zone-identifier.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "Tomasz Dyla <tomek-d@outlook.com>",
+  "license": "MIT",
+  "repository": "tomek-d/gulp-zoneidentifier",
   "keywords": [
     "ntfs",
     "windows",
     "zoneinfo",
     "ie"
   ],
-  "author": "Tomasz Dyla",
-  "license": "ISC",
+  "files": ["zone-identifier.js", "LICENSE"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "gulp": "^3.9.1"
   },
