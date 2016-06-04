@@ -1,0 +1,25 @@
+{
+  "name": "gulp-zoneidentifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zone-identifier.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ntfs",
+    "windows",
+    "zoneinfo",
+    "ie"
+  ],
+  "author": "Tomasz Dyla",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "through2": "^2.0.1",
+    "vinyl": "^1.1.1"
+  }
+}
