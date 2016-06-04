@@ -12,12 +12,19 @@
     "zoneinfo",
     "ie"
   ],
-  "files": ["zone-identifier.js", "LICENSE"],
+  "files": [
+    "zone-identifier.js",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "mocha": "^2.5.3",
+    "should": "^9.0.0",
+    "stream-array": "^1.1.2",
+    "stream-assert": "^2.0.3"
   },
   "dependencies": {
     "lodash": "^4.13.1",
