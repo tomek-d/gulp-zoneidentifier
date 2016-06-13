@@ -7,7 +7,7 @@ var DEFAULT_ZONE_IDENTIFIER = 3;
 var DEFAULT_FILE_EXTENSIONS = ['.js', '.html'];
 
 function shouldCreateZoneInfoFile(filePath, fileExt) {
-  return filePath && fileExt.includes(path.extname(filePath));
+  return filePath && fileExt.indexOf(path.extname(filePath)) > -1;
 }
 
 function createZoneInfoFile (file, zoneId) {
